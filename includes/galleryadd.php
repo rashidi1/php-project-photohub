@@ -3,12 +3,7 @@ error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE);
 
 session_start();
 
- if (!isset($_SESSION['userid'])) {
-    if (isset($_COOKIE['userid']) && isset($_COOKIE['username'])) {
-      $_SESSION['userid'] = $_COOKIE['userid'];
-      
-    }
-  }
+
   
 // variables are used later in the code
 $userid = $_SESSION['userid'];

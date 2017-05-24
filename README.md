@@ -15,3 +15,4 @@ Enter in browser url: http://localhost/photohub/index.php but you may need to ad
 
 
 So, hopefully it runs smoothly and without any issues  
+Additional information is available on wiki page  
